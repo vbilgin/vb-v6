@@ -60,11 +60,13 @@
 @mixin list {
     font-family: 'Minion Pro', Georgia, serif;
     font-size: 1.5rem;
+
     margin-left: 2rem;
     margin-bottom: 2rem;
 
     li {
         margin-bottom: 0.75rem;
+        line-height: 1.5;
     }
 
     li:last-of-type {
