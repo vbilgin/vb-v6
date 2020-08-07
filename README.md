@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="An abstract representation of an eye" src="https://github.com/vbilgin/vb-v6/blob/master/assets/img/eye-github.png"/>
+  <img alt="An abstract representation of an eye" src="https://github.com/vbilgin/vb-v6/blob/master/assets/img/eye.svg" width="125"/>
 </div>
 <h1 align="center">
   victorbilgin.com - v6
