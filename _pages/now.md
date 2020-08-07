@@ -9,8 +9,8 @@ Still attending [WGU](https://www.wgu.edu/) and pursuing their BS in Cloud and S
 # Work
 Started a new job in March 2020 working as a Help Desk Specialist for [Houlihan Lokey](https://hl.com/).
 
-I've mostly adjusted to the job and feel comfortable tackling most issues that come about. Planning to hunker down and absord as much knowledge as I can.
+I've mostly adjusted to the job and feel comfortable tackling most issues that come up. Planning to hunker down and absorb as much knowledge as I can.
 
-*This page was last updated on 8/5/2020.*
+*This page was last updated on 8/6/2020.*
 
 This page is dedicated to what I'm doing **right now**. It is inspired by Derek Sivers' [Now Now Now Project](https://nownownow.com/).
