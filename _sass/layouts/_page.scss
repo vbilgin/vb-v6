@@ -1,0 +1,26 @@
+.page {
+    grid-column: 2/6;
+}
+
+.page__title {
+    @include f-title;
+}
+
+.page__content {
+    p {
+        @include f-body;
+    }
+
+    p:last-of-type {
+        margin-bottom: 0;
+    }
+
+    a {
+        @include link;
+    }
+
+    ul,
+    ol {
+        @include list;
+    }
+}

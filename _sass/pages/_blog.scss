@@ -1,0 +1,23 @@
+.post__card {
+    margin-bottom: 3rem;
+}
+
+.post__card:last-of-type {
+    margin-bottom: 0;
+}
+
+.post__card__title {
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+.post__card__date {
+    @include ff-sans;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+.post__card__excerpt {
+    margin-bottom: 0;
+}

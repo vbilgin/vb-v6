@@ -1,0 +1,115 @@
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+fieldset,
+legend,
+textarea,
+iframe,
+figure,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: $secondary-light;
+    color: $primary-light;
+    @include ff-sans;
+    font-size: 16px;
+}
+
+::selection {
+    background: $primary-light;
+    color: $secondary-light;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+}
+
+h1 {
+    @include f-heading-1;
+}
+
+h2 {
+    @include f-heading-2;
+}
+
+h3 {
+    @include f-heading-3;
+}
+
+h4 {
+    @include f-heading-4;
+}
+
+h5 {
+    @include f-heading-5;
+}
+
+h6 {
+    @include f-heading-6;
+}
+
+button,
+input,
+select,
+textarea {
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+img,
+video {
+    height: auto;
+    max-width: 100%;
+}
+
+a {
+    color: $primary-light;
+}
+
+p {
+    @include ff-serif;
+}
+
+iframe {
+    border: 0;
+}
+
+i {
+    font-family: "Segoe UI Symbol";
+}
+
+code,
+pre {
+    font-family: 'Consolas', 'Courier New', monospace;
+    overflow: scroll;
+}

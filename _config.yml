@@ -1,0 +1,20 @@
+url: "https://victorbilgin.com"
+baseurl: ""
+title: "Victor Bilgin" 
+description: "My corner of the internet - a place for me to share my thoughts."
+author: "Victor Bilgin"
+
+email: hello@victorbilgin.com
+twitter: victorbilgin
+linkedin: victorbilgin
+github: vbilgin
+
+include:
+  - _pages
+
+markdown: kramdown
+
+sass:
+  style: compressed
+
+highlighter: rouge

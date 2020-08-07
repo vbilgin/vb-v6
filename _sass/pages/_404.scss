@@ -1,0 +1,17 @@
+.error__main {
+    grid-column: 2/6;
+}
+
+.error__title {
+    @include f-title;
+    text-align: center;
+}
+
+.error__text {
+    @include f-body;
+    text-align: center;
+
+    a {
+        @include link;
+    }
+}

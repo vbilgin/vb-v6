@@ -1,0 +1,31 @@
+.footer {
+    grid-column: 2/6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0;
+    padding-top: 0.5rem;
+
+    @media screen and (max-width: 520px) {
+        align-items: flex-start;
+    }
+}
+
+#eye:hover {
+    cursor: pointer;
+}
+
+.footer__email {
+    @include ff-sans;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+
+    @media screen and (max-width: 520px) {
+        margin-bottom: 1.5rem;
+    }
+}
+
+.footer__copyright {
+    @include ff-sans;
+    font-size: 1.5rem;
+}

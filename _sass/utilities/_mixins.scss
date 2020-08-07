@@ -1,0 +1,78 @@
+@mixin ff-sans {
+    font-family: 'Degular', 'Arial', sans-serif;
+}
+
+@mixin ff-serif {
+    font-family: 'Minion Pro', 'Georgia', serif;
+}
+
+@mixin f-title ($title-margin-b: 2rem) {
+    font-family: 'Degular', 'Arial', sans-serif;
+    font-weight: normal;
+    font-size: 4rem;
+    margin-bottom: $title-margin-b;
+}
+
+@mixin f-body {
+    font-family: 'Minion Pro', 'Georgia', serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+@mixin f-heading-1 {
+    font-family: 'Minion Pro', 'Georgia', serif;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+@mixin f-heading-2 {
+    font-family: 'Minion Pro', 'Georgia', serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+@mixin f-heading-3 {
+    font-family: 'Minion Pro', 'Georgia', serif;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+@mixin f-heading-4 {
+    font-family: 'Minion Pro', 'Georgia', serif;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+@mixin f-heading-5 {
+    font-family: 'Minion Pro', 'Georgia', serif;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+@mixin f-heading-6 {
+    font-family: 'Minion Pro', 'Georgia', serif;
+    font-size: 0.83rem;
+    margin-bottom: 1rem;
+}
+
+@mixin list {
+    font-family: 'Minion Pro', Georgia, serif;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+
+    li {
+        margin-bottom: 0.75rem;
+    }
+
+    li:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+@mixin link {
+    text-decoration: underline;
+    font-style: italic;
+}
