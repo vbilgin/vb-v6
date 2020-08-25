@@ -3,7 +3,7 @@
 }
 
 @mixin ff-serif {
-    font-family: 'Minion Pro', 'Georgia', serif;
+    font-family: 'minion-pro', 'Georgia', serif;
 }
 
 @mixin f-title ($title-margin-b: 2rem) {
@@ -14,52 +14,52 @@
 }
 
 @mixin f-body {
-    font-family: 'Minion Pro', 'Georgia', serif;
+    font-family: 'minion-pro', 'Georgia', serif;
     font-weight: normal;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     line-height: 1.5;
     margin-bottom: 2rem;
 }
 
 @mixin f-heading-1 {
-    font-family: 'Minion Pro', 'Georgia', serif;
+    font-family: 'minion-pro', 'Georgia', serif;
     font-size: 2.5rem;
     margin-bottom: 1rem;
 }
 
 @mixin f-heading-2 {
-    font-family: 'Minion Pro', 'Georgia', serif;
+    font-family: 'minion-pro', 'Georgia', serif;
     font-size: 2rem;
     margin-bottom: 1rem;
 }
 
 @mixin f-heading-3 {
-    font-family: 'Minion Pro', 'Georgia', serif;
+    font-family: 'minion-pro', 'Georgia', serif;
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 
 @mixin f-heading-4 {
-    font-family: 'Minion Pro', 'Georgia', serif;
+    font-family: 'minion-pro', 'Georgia', serif;
     font-size: 1.25rem;
     margin-bottom: 1rem;
 }
 
 @mixin f-heading-5 {
-    font-family: 'Minion Pro', 'Georgia', serif;
+    font-family: 'minion-pro', 'Georgia', serif;
     font-size: 1rem;
     margin-bottom: 1rem;
 }
 
 @mixin f-heading-6 {
-    font-family: 'Minion Pro', 'Georgia', serif;
+    font-family: 'minion-pro', 'Georgia', serif;
     font-size: 0.83rem;
     margin-bottom: 1rem;
 }
 
 @mixin list {
-    font-family: 'Minion Pro', Georgia, serif;
-    font-size: 1.5rem;
+    font-family: 'minion-pro', Georgia, serif;
+    font-size: 1.7rem;
 
     margin-left: 2rem;
     margin-bottom: 2rem;
