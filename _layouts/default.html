@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  {% include head.html %}
-  <body class="main-grid">
-    {% include nav-bar.html %}
-    {{ content}}
-    {% if page.title != 'Home' %}
-    {% include footer.html %}
-    {% endif %}
+{% include head.html %}
 
-    <script src="/assets/js/app.js"></script>
-  </body>
+<body class="main-grid">
+  {% include nav-bar.html %}
+  {{ content}}
+  {% if page.title != 'Home' %}
+  {% include footer.html %}
+  {% endif %}
+
+  <script src="/assets/js/app.js"></script>
+  <script data-goatcounter="https://vbilgin.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+
 </html>
